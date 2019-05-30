@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>vip</title>
+   <link href="bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <link href="./stylee.css" type="text/css" rel="stylesheet">
+   <script type="text/javascript">
+   function dihejk2() {
+       var diz = document.getElementById("url").value;
+       var jkurl = document.getElementById("jk");
+       var jk = document.getElementById("jk").selectedIndex;
+       var jkv = jkurl.options[jk].value;
+       window.open(jkv + diz,"_blank");
+   }
+   </script>
+</head>
+
+<body>
+<div class="input-group" style="width: 100%;">
+      <span class="input-group-addon input-lg" style="width: 80px; ">选择接口</span>
+      <select class="form-control input-lg" id="jk">
+      	<option value="http://jx.du2.cc/?url=" selected="">⑤号通用vip引擎系统【稳定通用】</option> 
+      	<option value="http://jx.drgxj.com/?url=" selected="">④号通用vip引擎系统【超级稳定通用】</option>
+	  <option value="http://jx.618ge.com/?url=" selected="">③号通用vip引擎系统【稳定通用】</option>
+    <option value="http://vip.jlsprh.com/?url=" selected="">②号通用vip引擎系统【稳定通用】</option>
+      <option value="http://jx.598110.com/?url=" selected="">①号通用vip引擎系统【稳定通用】</option> 
+  </select>
+	
+     </div>
+     <br>
+     
+     <div class="input-group" style="width: 100%; ">
+      <span class="input-group-addon input-lg" style="width: 80px;">播放地址</span>
+      <input class="form-control input-lg" type="search" placeholder="电脑使用Ctrl+V粘贴网址-手机直接长按粘贴网址" id="url">
+     </div>
+     <br>
+     <div>
+      <button id="bf" type="button" class="btn btn-success btn-lg btn-block" onClick="dihejk2()">全屏解析</button>
+     </div>  
+   </div>
+</body>
+</html>
